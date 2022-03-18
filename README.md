@@ -99,4 +99,4 @@ Long term (if anyone uses this thing):
 - Support other readers ([aiocogeo](https://github.com/geospatial-jeff/aiocogeo)?) that may perform better than GDAL for specific formats
 - Interactive mapping with [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet), made performant with some Dask graph-rewriting tricks to do the initial IO at coarser resolution for lower zoom levels (otherwize zooming out could process terabytes of data)
 - Improve ergonomics of xarray for raster data (in collaboration with [rioxarray](https://corteva.github.io/rioxarray/stable/readme.html))
-- Implement core geospatial routines (warp, vectorize, vector stats, [GeoPandas](https://geopandas.org)/[spatialpandas](https://github.com/holoviz/spatialpandas) interop) in Dask
+- Implement core geospatial routines (warp, vectorize, vector stats, [GeoPandas](https://geopandas.org)/[spatialpandas](https://github.com/holoviz/spatialpandas)/[dask-geopandas](https://dask-geopandas.readthedocs.io/en/latest/) interop) in Dask
